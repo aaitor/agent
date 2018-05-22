@@ -1,7 +1,7 @@
 import abc
 
 
-class ResourcesManager(metaclass=abc.ABCMeta):
+class AbstractManager(metaclass=abc.ABCMeta):
     """Abstract class in charge of provide the common functions of the different Managers"""
 
     @abc.abstractmethod
