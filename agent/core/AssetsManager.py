@@ -1,7 +1,7 @@
-import ResourcesManager
+from agent.core.AbstractManager import AbstractManager
 
 
-class AssetsManager(ResourcesManager):
+class AssetsManager(AbstractManager):
     """Implementation of the Manager in charge of interact with the Assets operations"""
 
     def __init__(self):
