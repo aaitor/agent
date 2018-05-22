@@ -30,9 +30,10 @@ Template Ocean Agent
 Features
 --------
 
-* Ocean Agent application template
-* pytest
-* packages organizing the application
+- Ocean Agent application template
+- pytest
+- packages organizing the application
+
   - server: Implementation of different server apis. Uses the common models and integrates the code.managers.*
   - watcher: Subscribes to the EVM transaction log and exposes via ws allowing to subscribe
   - provider: Implement the provider functions
